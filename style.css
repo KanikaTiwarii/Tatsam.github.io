@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navLeft{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navLeft span{
+    font-size: 45px;
+}
+.navRight{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.navRight li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+}
+.about{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.aboutLeft{
+    width: 40%;
+}
+.aboutLeft h1{
+    font-size: 44px;
+    color: #E9B824;
+}
+.aboutLeft p{
+    padding-top: 20px;
+}
+.aboutRight{
+    width: 50%;
+}
+.aboutImg{
+    height: 500px;
+    background-image: url(./assets/about_img.jpg);
+    background-size: 100% 100%;
+}
+.departments .departmentsTitle{
+    font-size: 44px;
+    margin-left: 35px;
+    color: #E9B824;
+}
+.departmentsRow{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.card{
+    position: relative;
+    width: 250px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.15);
+}
+.card-header{
+    height: 35%;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .header-img{
+    height: 100%;
+    width: 100%;
+    background: url(./assets/team.jpg) left center;
+    background-size: 100%;
+    border-radius: inherit;
+    transition: all ease-in-out .4s;
+  }
+  .card:hover .header-img{
+    transform: scale(1.25) rotate(2deg);
+  }
+  .card-title {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px;
+  }
+  .card-title h1 {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 40px;
+    padding: 0px;
+  }
+  .btn{
+    padding: 10px 20px;
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    bottom: 70px;
+    transform: translate(-50%, 0%);
+    border: 1px solid #E9B824;
+    border-radius: 100px;
+    text-align: center;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background: #E9B824;
+    color: #fff;
+  }
+  .contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    height: 65vh;
+  }
+  .contactLeft{
+    width: 40%;
+  }
+  .contactLeft h1{
+    font-size: 45px;
+    color: #E9B824;
+  }
+  .contactLeft fieldset{
+    width: 80%;  
+    border: 3px solid #E9B824;
+    padding: 0 15px;
+  }
+  .contactRight{
+    width: 45%;
+  }
+  .contactImg{
+    height: 90%;
+    background-image: url(./assets/pexels-pixabay-326576.jpg);
+    background-size: 100% 100%;
+  }
+  .footer{
+    margin-top: 40px;
+    height: 40px;
+    background-color: #E9B824;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
