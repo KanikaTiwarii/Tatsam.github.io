@@ -54,7 +54,7 @@ body{
 }
 .aboutImg{
     height: 500px;
-    background-image: url(./assets/about_img.jpg);
+    background-image: url(./about_img.jpg);
     background-size: 100% 100%;
 }
 .departments .departmentsTitle{
@@ -83,7 +83,7 @@ body{
   .header-img{
     height: 100%;
     width: 100%;
-    background: url(./assets/team.jpg) left center;
+    background: url(./team.jpg) left center;
     background-size: 100%;
     border-radius: inherit;
     transition: all ease-in-out .4s;
@@ -144,7 +144,7 @@ body{
   }
   .contactImg{
     height: 90%;
-    background-image: url(./assets/pexels-pixabay-326576.jpg);
+    background-image: url(./pexels-pixabay-326576.jpg);
     background-size: 100% 100%;
   }
   .footer{
